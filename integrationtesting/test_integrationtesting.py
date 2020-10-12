@@ -1,29 +1,21 @@
 """sample test"""
 import unittest
-from termcolor import colored
-import emoji
-
-from integrationtesting import integration_testing
-
-def print_error(string:str):
-    text = colored(string, 'red')
-    print(text + emoji.emojize(':thumbs_down:'))
-    pass
-def print_warning(string:str):
-    text = colored(string, 'yellow')
-    pass
-def print_success(string:str):
-    text = colored(string, 'yellow')
-    pass
+import integrationtesting.print_msgs as msg
 
 class Testintegration_testing(unittest.TestCase):
     """sample test"""
 
     def test_world(self):
         """sample test"""
-        print_error("What the hell")
-        self.assertEqual(1, 1)
+        msg.print_error("I am printing an error message here:")
+        self.assertEqual(1, 2)
 
     def test_world_unicode(self):
         """sample test with unicode"""
+        msg.print_success("I am printing a success  here:")
+        self.assertEqual(2, 2)
+
+    def test_world_unicode1(self):
+        """sample test with unicode"""
+        msg.print_warning("I am printing a warning  here:")
         self.assertEqual(2, 2)
