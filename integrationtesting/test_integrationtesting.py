@@ -9,8 +9,8 @@ class Testintegration_testing(unittest.TestCase):
 
     def test_world(self):
         """sample test"""
-        self.assertEqual(hello('world'), 'hello world')
+        self.assertEqual(1, 1)
 
     def test_world_unicode(self):
         """sample test with unicode"""
-        self.assertEqual(hello(u'world'), u'hello world')
+        self.assertEqual(2, 2)
