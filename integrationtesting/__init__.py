@@ -1,6 +1,4 @@
-"""hello world module"""
+"""rahular integration testing framework:"""
 
-
-def integration_testing(who):
-    """function that greats"""
-    return "hello " + who
+def rahular(who):
+    return "OK"
