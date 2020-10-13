@@ -18,10 +18,10 @@ class Testintegration_testing(unittest.TestCase):
 
     def test_world_unicode1(self):
         """sample test with unicode"""
-	plt.scatter(x, y, s=area, c=colors, alpha=0.5)
-	plt.title('Scatter plot pythonspot.com')
-	plt.xlabel('x')
-	plt.ylabel('y')
-	plt.show(block=True)
+        plt.scatter(x, y, s=area, c=colors, alpha=0.5)
+        plt.title('Scatter plot pythonspot.com')
+        plt.xlabel('x')
+        plt.ylabel('y')
+        plt.show(block=True)
         msg.print_warning("I am printing a warning  here:")
         self.assertEqual(2, 2)
