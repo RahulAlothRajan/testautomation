@@ -2,6 +2,7 @@
 import unittest
 import integrationtesting.print_msgs as msg
 import matplotlib.pyplot as plt
+import numpy as np
 
 class Testintegration_testing(unittest.TestCase):
     """sample test"""
