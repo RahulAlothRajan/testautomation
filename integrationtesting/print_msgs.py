@@ -18,3 +18,7 @@ def print_success(string: str):
     text = colored(string, "green")
     print("\n" + text + emoji.emojize(":thumbs_up:"))
     pass
+
+def all_done(string: str):
+    text = colored(string, "green")
+    print("\n" + text + emoji.emojize(":thumbs_up:"))

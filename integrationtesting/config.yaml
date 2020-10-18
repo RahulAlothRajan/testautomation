@@ -1,0 +1,5 @@
+# config.yaml file
+
+rc_build_path: "/home/rahul/2getthere/autoscript/soc-ubuntu-frgenintegration.xzip"
+previous_stable_path: "/home/rahul/2getthere/autoscript/soc-ubuntu-frgenintegration.xzip"
+zip_extact_path: "/home/rahul/2getthere/autoscript"

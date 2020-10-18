@@ -1,0 +1,6 @@
+# config.yaml file
+
+rc_build_path: "/home/rahul/2getthere/autoscript/soc-ubuntu-frgenintegration.xzip"
+zip_extact_path: "/home/rahul/2getthere/autoscript"
+local_working_directory: "/home/rahul/2getthere/autoscript"
+theme: jekyll-theme-cayman
